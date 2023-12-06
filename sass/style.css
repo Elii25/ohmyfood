@@ -3,4 +3,49 @@
   background: #fff;
   justify-content: center;
   align-items: center;
+}
+
+.logo {
+  display: flex;
+  width: 197px;
+  height: 36px;
+  padding: 0px 19px 0px 16px;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+.localisation {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  background: #eaeaea;
+}
+
+.menu .title-reserv {
+  color: #000;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+
+.text-reserv {
+  text-align: center;
+  color: #353535;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.menu .title-reserv .bouton-menu-explo {
+  width: 218px;
+  height: 50px;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
