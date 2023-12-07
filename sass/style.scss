@@ -1,4 +1,4 @@
-$button-Gradient:#9356DC -11.44%, #FF79DA 123.93%;
+@import "utils/variables";
 
 .header{
     display: flex;
@@ -27,31 +27,49 @@ $button-Gradient:#9356DC -11.44%, #FF79DA 123.93%;
     background: #eaeaea;
 }
 
-.menu .title-reserv{
-    color: #000;
+.menu{
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    line-height: normal;
-}
-
-.text-reserv{
-    text-align: center;
-    color: #353535;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-
-}
-
-.bouton-menu-explo{
-    width: 218px;
-    height: 50px;
-    border-radius: 25px;
     align-items: center;
-    justify-content: center;
-    background: $button-Gradient;
+    font-family: 'Roboto', sans-serif;
+
+    .title-reserv{
+        color: #000;
+        font-style: normal;
+    }
+
+    .text-reserv{
+        color: #353535;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .bouton-menu-explo{
+        width: 218px;
+        height: 50px;
+        border-radius: 25px;
+        border: none;
+        background: linear-gradient($button-Gradient);
+    }
+}
+
+.Fonctionnement{
+    width: 375px;
+    height: 440px;
+    background: white;
+
+    .title-fonct{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .bouton-menu{
+        justify-content: space-between;
+    }
+
+    .buton1 .button2 .button3{
+        width: 322;
+    }
 }
 
