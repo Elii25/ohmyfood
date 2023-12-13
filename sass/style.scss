@@ -2,20 +2,15 @@
 @import "Composents/menu";
 @import "Layout/header";
 @import "Layout/logo";
+@import "Layout/localisation",
 
-.localisation{
-    display: flex;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    gap: 17px;
-    background: #eaeaea;
-}
+
 
 .Fonctionnement{
     width: 375px;
     height: 440px;
     background: white;
+    flex-direction: column;
 
     .title-fonct{
         font-size: 24px;
@@ -26,10 +21,29 @@
 
     .bouton-menu{
         justify-content: space-between;
+        align-items: center;
+        justify-content: center;
     }
 
-    .buton1 .button2 .button3{
-        width: 322;
+    .buton1{
+        width: 322.486px;
+        height: 72.379px;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .button2{
+        width: 322.486px;
+        height: 72.379px;
+        border-radius: 20px;
+    }
+
+    .button3{
+        width: 322.486px;
+        height: 72.379px;
+        border-radius: 20px;
     }
 }
 
