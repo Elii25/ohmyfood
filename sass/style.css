@@ -37,37 +37,66 @@
   color: #000;
 }
 
-.Fonctionnement {
-  width: 375px;
-  height: 440px;
+.localisation {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  background: #eaeaea;
+}
+
+.fonctionnement {
   background: white;
   flex-direction: column;
+  padding: 10px;
 }
-.Fonctionnement .title-fonct {
+.fonctionnement .title-fonct {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
 }
-.Fonctionnement .bouton-menu {
-  justify-content: space-between;
+.fonctionnement .bouton-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+}
+.fonctionnement .button {
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border-radius: 20px;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
-.Fonctionnement .buton1 {
-  width: 322.486px;
-  height: 72.379px;
-  border-radius: 20px;
-  align-items: center;
-  justify-content: center;
+
+.restaurants-reserv {
+  padding: 0;
 }
-.Fonctionnement .button2 {
-  width: 322.486px;
-  height: 72.379px;
-  border-radius: 20px;
+.restaurants-reserv .restaurant {
+  border-radius: 15px;
+  background: #fff;
+  margin-right: 20px;
+  flex-flow: column;
+  gap: 30px;
 }
-.Fonctionnement .button3 {
-  width: 322.486px;
-  height: 72.379px;
-  border-radius: 20px;
+.restaurants-reserv .restaurant-cards {
+  flex-direction: column;
+}
+.restaurants-reserv .restaurant a {
+  width: 100%;
+}
+.restaurants-reserv .restaurant-cards .card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.restaurants-reserv .restaurant-cards .card img {
+  height: 231px;
+  flex-shrink: 0;
+  border-radius: 15px 15px 0 0;
 }/*# sourceMappingURL=style.css.map */

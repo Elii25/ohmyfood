@@ -1,0 +1,32 @@
+.restaurants-reserv{
+    padding: 0;
+
+    .restaurant{
+        border-radius: 15px;
+        background: #fff;
+        margin-right: 20px;
+        flex-flow: column;
+        gap: 30px;
+    }
+
+    .restaurant-cards{
+        flex-direction: column;
+
+    }
+    
+    .restaurant a{
+        width: 100%;
+    }
+
+    .restaurant-cards .card{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .restaurant-cards .card img{
+        height: 231px;
+        flex-shrink: 0;
+        border-radius: 15px 15px 0 0;
+    }
+}

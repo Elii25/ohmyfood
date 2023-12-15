@@ -2,48 +2,6 @@
 @import "Composents/menu";
 @import "Layout/header";
 @import "Layout/logo";
-@import "Layout/localisation",
-
-
-
-.Fonctionnement{
-    width: 375px;
-    height: 440px;
-    background: white;
-    flex-direction: column;
-
-    .title-fonct{
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    .bouton-menu{
-        justify-content: space-between;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .buton1{
-        width: 322.486px;
-        height: 72.379px;
-        border-radius: 20px;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .button2{
-        width: 322.486px;
-        height: 72.379px;
-        border-radius: 20px;
-    }
-
-    .button3{
-        width: 322.486px;
-        height: 72.379px;
-        border-radius: 20px;
-    }
-}
-
+@import "Layout/localisation";
+@import "Layout/fonctionnement";
+@import "Layout/restaurants";
